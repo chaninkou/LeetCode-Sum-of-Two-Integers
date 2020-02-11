@@ -21,6 +21,7 @@ public class AddTwoIntegerWithoutSymbolFunction {
 			
 			// b is the carries
 			// Need to left shift one because we don't want the raw carry position
+			// b will be 0 when there is no more carry
 			b = carry << 1;
 		}
 		
