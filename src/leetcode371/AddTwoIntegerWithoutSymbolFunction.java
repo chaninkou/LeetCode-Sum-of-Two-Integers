@@ -1,4 +1,4 @@
-package adding;
+package leetcode371;
 
 public class AddTwoIntegerWithoutSymbolFunction {
 	public int getSum(int a, int b) {
@@ -12,10 +12,10 @@ public class AddTwoIntegerWithoutSymbolFunction {
 		
 		// b will be 0 when there are no more carry
 		while(b != 0){
-			// & will get the position where the carry are, 1 & 1 is 1, when you add two binary, there is a carry
+			// & will get the position where the carry are, 1 & 1 is 1, 
 			int carry = a & b;
 			
-			// A will be the running addition result
+			// a will be the running addition result
 			// XOR will act as a normal adding, cause only 0 ^ 1 or 1 ^ 0 is 1
 			a = a ^ b;
 			
