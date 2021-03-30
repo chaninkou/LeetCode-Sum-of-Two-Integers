@@ -1,6 +1,7 @@
 package leetcode371;
 
 public class AddTwoIntegerWithoutSymbolFunction {
+	// 
 	public int getSum(int a, int b) {
 		// Easy check to see if one of them is 0
 		if(a == 0){
