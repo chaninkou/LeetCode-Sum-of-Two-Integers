@@ -1,7 +1,7 @@
 package leetcode371;
 
 public class AddTwoIntegerWithoutSymbolFunction {
-	// 
+	// This is faster than using symbol function i believe
 	public int getSum(int a, int b) {
 		// Easy check to see if one of them is 0
 		if(a == 0){
